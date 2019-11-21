@@ -3,10 +3,11 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: Helvetica, sans-serif;
-    color: white;
+    color: black;
 }
 
 .center {
+    color: white;
     text-align: center;
     position: absolute;
     top: 23%;
@@ -15,11 +16,10 @@
     font-size: 200px;
 }
 
-#openingImg {
-    vertical-align: center;
+#welcome_img {
     width: 100%;
-    overflow: hidden;
-    display: grid;
+    display: block;
+    margin: auto;
 }
 
 #nav_bar {
@@ -45,6 +45,7 @@ nav ul {
 }
 
 nav a {
+    color: white;
     text-decoration: none;
     font-weight: bold;
     padding: 16px 5px 17px;
@@ -56,6 +57,7 @@ nav a:hover {
 }
 
 nav h3 {
+    color: white;
     font-size: 30px;
     letter-spacing: 2px;
 }
@@ -64,7 +66,37 @@ nav h3 {
     max-height: 50px;
 }
 
-.large_div {
-    height: 800px;
-    background-color: green;
+.box_div {
+    clear: both;
+    overflow: auto;
+    margin: 1vw;
+}
+
+#duck_image {
+}
+
+.box_img {
+    float: left;
+    width: 40%;
+    display: block;
+}
+
+#open_disp_div {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.box_text_div { 
+    overflow: hidden;
+    height: 100%;
+    width: auto;
+    padding-left: 1vw;
+}
+
+.box_text_div h1, p{
+    text-align: center;
+}
+
+.box_text_div h1 {
+    font-size: 4vw;
 }

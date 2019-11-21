@@ -1,0 +1,25 @@
+section 1:
+Welcome area
+-done as far as i can see
+
+section 2:
+background
+-what do i need for background
+what i have so far
+- Grew up in Los Altos, California
+- Graduated from Mountain View High School
+- Currently Studying Computer Science at Brigham Young University in Idaho
+
+section 3:
+education
+
+section 4:
+hobbies
+-is that even relevant
+
+section 5:
+work experience
+
+end section:
+coded by Chris tabaska
+last updated date

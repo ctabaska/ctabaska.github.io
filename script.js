@@ -27,10 +27,12 @@ function scrollCenterText()
 {
     var welcomeText = document.getElementById("welcome_text");
     var underWelcomeText = document.getElementById("under_welcome_text");
-    var openingImg = document.getElementById("openingImg");
+    var openingDiv = document.getElementById("open_disp_div");
 
     welcomeText.style.top = (23 + (0.03 * window.pageYOffset)) +'%';
     underWelcomeText.style.top = (38 + (0.02 * window.pageYOffset)) +'%';
+    openingDiv.style.height = (100 - (0.01 * window.pageYOffset)) + 'vh';
+
     //openingImg.style.opacity = 450 - window.pageYOffset / 450;
     //console.log("this worked");
 
