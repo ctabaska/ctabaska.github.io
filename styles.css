@@ -70,6 +70,7 @@ nav h3 {
     clear: both;
     overflow: auto;
     margin: 1vw;
+    background-color: rgb(221, 221, 221);
 }
 
 #duck_image {
@@ -100,4 +101,8 @@ nav h3 {
 
 .box_text_div h1 {
     font-size: 4vw;
+}
+
+footer {
+    background-color: grey;
 }
